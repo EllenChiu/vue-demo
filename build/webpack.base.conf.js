@@ -91,8 +91,9 @@ module.exports = {
         // Automatically loads modules
         $: 'jquery',
         jQuery: 'jquery',
-        'window.jQuery': 'jquery', 
-        Tether: 'tether'
+        'window.jQuery': 'jquery',
+        Tether: 'tether',
+        moment: 'moment',
     })
   ],
   node: {

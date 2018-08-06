@@ -1,21 +1,21 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import List from '@/components/List'
+import welcome from '@/components/IndexPage'
+import List from '@/components/ListPage'
 
 Vue.use(Router)
 
 export default new Router({
-  // mode: 'history',
+  mode: 'history',
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'IndexPage',
+      component: welcome
     },
     {
       path: '/demo-list',
-      name: 'List',
+      name: 'ListPage',
       component: List
     }
   ]
