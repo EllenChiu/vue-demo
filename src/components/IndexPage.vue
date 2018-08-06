@@ -18,7 +18,7 @@
               <input type="text" class="form-control" placeholder="To"  value="Tokyo, Japan">
             </div>
             <div class="col-1">
-            <a class="btn btn-primary mb-2" href="/demo-list"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a class="btn btn-primary mb-2" href="https://ellenchiu.github.io/layout-demo/index.html"><i class="fa fa-search" aria-hidden="true"></i></a>
             </div>
           </div>
         </form>
