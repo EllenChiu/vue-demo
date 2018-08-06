@@ -4,14 +4,15 @@
 
 ## Using
 
-> vue-cli
+``` bash
+vue-cli
 
-> Bootstrap v4.1
+Bootstrap v4.1
 
-> Fontawesome
+Fontawesome
 
-> vuejs-datepicker
-
+vuejs-datepicker
+```
 
 ## Build Setup
 
