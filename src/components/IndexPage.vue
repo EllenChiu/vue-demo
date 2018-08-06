@@ -12,10 +12,10 @@
               <datepicker :bootstrap-styling="true" placeholder="Return"></datepicker>
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="From" value="Taiwan, Taoyuan">
+              <input type="text" class="form-control" placeholder="From" value="Taoyuan, Taiwan">
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="To"  value="Japan, Tokyo">
+              <input type="text" class="form-control" placeholder="To"  value="Tokyo, Japan">
             </div>
             <div class="col-1">
             <a class="btn btn-primary mb-2" href="/demo-list"><i class="fa fa-search" aria-hidden="true"></i></a>

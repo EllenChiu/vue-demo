@@ -93,7 +93,6 @@ module.exports = {
         jQuery: 'jquery',
         'window.jQuery': 'jquery',
         Tether: 'tether',
-        moment: 'moment',
     })
   ],
   node: {
