@@ -24,7 +24,6 @@ module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
     app: './src/main.js',
-    'Api': path.resolve(__dirname, '../src/api'),
   },
   output: {
     path: config.build.assetsRoot,
