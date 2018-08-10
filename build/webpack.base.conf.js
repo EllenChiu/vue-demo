@@ -93,6 +93,7 @@ module.exports = {
         jQuery: 'jquery',
         'window.jQuery': 'jquery',
         Tether: 'tether',
+        'Popper': 'popper'
     })
   ],
   node: {
