@@ -25,7 +25,10 @@
           </form>
         </div>
         <div class="login-btn">
-          <button class="btn btn-info btn-lg btn-block" @click="login" >{{loginBtnText}}</button>
+          <button class="btn btn-info btn-lg btn-block" @click="login" >
+            <span v-show="sendLogin">{{loginBtnText}}</span>
+            <span v-show="!sendLogin"><i class="fa fa-spinner fa-spin fa-fw"></i></span>
+          </button>
         </div>
       </div>
     </div>
@@ -37,12 +40,14 @@ export default {
   name: 'Login',
   data () {
     return {
-      loginBtnText: 'Login'
+      loginBtnText: 'Login',
+      sendLogin: true
     }
   },
   methods: {
     login () {
-      this.loginBtnText = '...'
+      this.sendLogin = false
+      setTimeout(window.location.href = '/welcome', 3000)
     }
   }
 }

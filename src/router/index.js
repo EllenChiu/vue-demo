@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import welcome from '@/components/IndexPage'
+import welcome from '@/components/WelcomePage'
 import Login from '@/components/LoginPage'
 import Dashboard from '@/components/DashboardPage'
 
@@ -10,12 +10,12 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/',
-      name: 'IndexPage',
+      path: '/welcome',
+      name: 'WelcomePage',
       component: welcome
     },
     {
-      path: '/login',
+      path: '/',
       name: 'LoginPage',
       component: Login
     },

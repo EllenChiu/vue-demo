@@ -33,7 +33,7 @@
 import Datepicker from 'vuejs-datepicker/dist/vuejs-datepicker.esm.js'
 
 export default {
-  name: 'IndexPage',
+  name: 'WelcomePage',
   components: {
     Datepicker
   },
