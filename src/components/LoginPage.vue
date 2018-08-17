@@ -47,7 +47,7 @@ export default {
   methods: {
     login () {
       this.sendLogin = false
-      setTimeout(window.location.href = '/welcome', 3000)
+      this.$router.push('welcome')
     }
   }
 }
