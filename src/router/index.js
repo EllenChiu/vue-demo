@@ -7,7 +7,6 @@ import Dashboard from '@/components/DashboardPage'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
   routes: [
     {
       path: '/welcome',
