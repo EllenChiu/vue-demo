@@ -47,7 +47,10 @@ export default {
   methods: {
     login () {
       this.sendLogin = false
-      this.$router.push('welcome')
+      const self = this
+      setTimeout(function () {
+        self.$router.push('dashboard')
+      }, 1000)
     }
   }
 }
