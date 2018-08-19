@@ -11,6 +11,8 @@ Bootstrap v4.1
 
 Fontawesome
 
+GoogleCharts
+
 vuejs-datepicker
 ```
 
