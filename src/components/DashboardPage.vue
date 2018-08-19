@@ -112,7 +112,7 @@
                 <div class="bucket gray income">
                   <div class="dollar" id="income-count" >{{ income | commaFormat }}</div>
                   <p>
-                    <img src="https://png.icons8.com/color/100/000000/money-box.png">
+                    <!-- <img src="https://png.icons8.com/color/100/000000/money-box.png"> -->
                     Income
                   </p>
                 </div>
@@ -121,7 +121,7 @@
                 <div class="bucket gray expense">
                   <div class="dollar"  id="expense-count" >{{ expense | commaFormat }}</div>
                   <p>
-                    <img src="https://png.icons8.com/color/100/000000/cash-in-hand.png" />
+                    <!-- <img src="https://png.icons8.com/color/100/000000/cash-in-hand.png" /> -->
                     Expense
                   </p>
                 </div>
